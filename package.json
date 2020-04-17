@@ -11,7 +11,9 @@
   "author": "Andrew Wittrock",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.656.0"
+    "aws-sdk": "^2.656.0",
+    "promise-parallel-throttle": "^3.3.0",
+    "ts-functional": "^1.5.1"
   },
   "devDependencies": {
     "@types/node": "^13.11.1",
