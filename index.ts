@@ -13,6 +13,10 @@ console.log(`Uploading ${fullFileName} to s3://${Bucket}/${Key} ...`);
 
 const s3 = new AWS.S3();
 
+const uploadPart = (partNumber:number, data:Buffer) => new Promise((resolve, reject) => {
+
+});
+
 s3.createMultipartUpload({Bucket, Key}, (err:AWS.AWSError, data:AWS.S3.CreateMultipartUploadOutput) => {
     if(err) {
         console.log(err);
