@@ -8,7 +8,7 @@
     "build": "tsc index.ts",
     "upload": "ts-node index.ts"
   },
-  "author": "Andrew Wittrock",
+  "author": "DaemonAlchemist",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.656.0",
